@@ -1,0 +1,50 @@
+.borderBottom {
+  border-bottom: 1px solid white;
+}
+
+h1 {
+  text-align: center;
+}
+
+.cantidadContainer {
+}
+
+.cantidadDivFlex {
+  display: flex;
+  justify-content: space-around;
+}
+
+h2 {
+  font-size: 1.125rem;
+}
+
+.elementosContainer {
+  margin-top: 1.5rem;
+}
+
+.botonera {
+  display: flex;
+  font-size: 1.25rem;
+  justify-content: space-between;
+}
+
+.botonesCantidad {
+  border-radius: 10px;
+  margin-left: 1.5rem;
+  padding: 1rem;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.reset {
+  border-radius: 12px;
+  padding: 1rem 2.125rem;
+}
+
+.maximos {
+  padding: 0.5rem 1rem;
+}
