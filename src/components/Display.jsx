@@ -3,13 +3,9 @@ export const Display = (props) => {
 
   return (
     <div>
-      <h2>{nombre}</h2>
-      <div className="botonera">
-        <div className="numberDisplay">
-          <p>
-            {cantidad}{" "}
-            {max != 100 && `=> ${Math.round((cantidad / max) * 100)}%`}
-          </p>
+      <div className="flexDiv">
+        <div>
+          <h2>{nombre}</h2>
         </div>
         <div>
           <button
@@ -36,6 +32,17 @@ export const Display = (props) => {
           </button>
         </div>
       </div>
+
+      <div>
+        <p className="cantidad">
+          {cantidad}
+          {max != 100 && ` => ${Math.round((cantidad / max) * 100)}%`}
+        </p>
+      </div>
     </div>
   );
 };
+
+/* 
+
+*/

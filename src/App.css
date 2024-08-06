@@ -6,9 +6,6 @@ h1 {
   text-align: center;
 }
 
-.cantidadContainer {
-}
-
 .cantidadDivFlex {
   display: flex;
   justify-content: space-around;
@@ -22,10 +19,14 @@ h2 {
   margin-top: 1.5rem;
 }
 
-.botonera {
+.flexDiv {
   display: flex;
-  font-size: 1.25rem;
   justify-content: space-between;
+  align-items: center;
+}
+
+.cantidad {
+  font-size: 1.25rem;
 }
 
 .botonesCantidad {
