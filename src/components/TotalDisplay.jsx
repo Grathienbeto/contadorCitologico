@@ -1,3 +1,5 @@
+import PropTypes from "prop-types"
+
 export const TotalDisplay = (props) => {
   const { total, reset, max } = props;
 
@@ -17,3 +19,9 @@ export const TotalDisplay = (props) => {
     </div>
   );
 };
+
+TotalDisplay.propTypes = {
+  total: PropTypes.number,
+  reset: PropTypes.func,
+  max: PropTypes.number
+}

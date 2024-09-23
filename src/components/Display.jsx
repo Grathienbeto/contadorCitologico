@@ -1,3 +1,5 @@
+import PropTypes from "prop-types"
+
 export const Display = (props) => {
   const { nombre, cantidad, setter, setTotal, total, max } = props;
 
@@ -43,6 +45,11 @@ export const Display = (props) => {
   );
 };
 
-/* 
-
-*/
+Display.propTypes = {
+  nombre : PropTypes.string,
+  cantidad: PropTypes.number,
+  setter: PropTypes.func,
+  setTotal: PropTypes.func,
+  total: PropTypes.number,
+  max: PropTypes.number
+}

@@ -1,3 +1,5 @@
+import PropTypes from "prop-types"
+
 export const CantidadMax = (props) => {
   const { maximo, setMax } = props;
 
@@ -7,3 +9,8 @@ export const CantidadMax = (props) => {
     </button>
   );
 };
+
+CantidadMax.propTypes = {
+  maximo: PropTypes.number,
+  setMax: PropTypes.func
+}
